@@ -1,3 +1,78 @@
 body {
     font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+.logo {
+    color: #4D5AE5;
+}
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.nav-menu {
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.nav-menu .menu-link:hover {
+color:#404BBF;
+}
+.nav-menu .menu-link:active {
+text-decoration: underline;
+}
+.contact-list {
+color:#434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.contact-list .contact-list-mailto:hover {
+    color: #404BBF;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.button:hover {
+    background-color: #404BBF;
+}
+.members {
+    color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.members-text {
+    color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
 }
