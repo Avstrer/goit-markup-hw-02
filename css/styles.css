@@ -18,7 +18,7 @@ ol {
 }
 /* logotype */
 .logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .logotype {
   font-family: 'Raleway', sans-serif;
@@ -37,6 +37,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: left;
 }
+.nav-menu-link:hover {
+  color: #404bbf;
+}
 .contact-list-mailto {
   color: #434455;
   font-size: 16px;
@@ -44,6 +47,9 @@ ol {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+.contact-list-mailto:hover {
+  color: #404bbf;
 }
 
 /* section 1-Hero-image, button */
@@ -56,11 +62,11 @@ ol {
   letter-spacing: 0.04em;
   text-align: left;
 }
+.button:hover {
+  color: #404bbf;
+}
 .hero-image {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
 }
 .hero-text {
   color: #ffffff;
@@ -117,7 +123,6 @@ ol {
 }
 /* section 4-portfolio */
 .portfolio-section {
-  border: 1px solid #e7e9fc;
 }
 .portfolio-main {
   color: #2e2f42;
@@ -142,4 +147,19 @@ ol {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+/* footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.logo-footer {
+  color: #f4f4fd;
 }
