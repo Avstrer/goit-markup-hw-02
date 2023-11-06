@@ -41,8 +41,7 @@ ul .nav-menu-link,
   text-align: left;
 }
 ul .nav-menu-link:hover,
-.nav-menu-link-studio:active,
-.nav-menu-link-studio {
+ul .nav-menu-link-studio:active {
   color: #404bbf;
 }
 .contact-list {
