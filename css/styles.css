@@ -21,15 +21,17 @@ ol {
   color: #2e2f42;
 }
 .logotype {
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
 }
 /* navigation */
-.nav-menu {
+ul .nav-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -37,10 +39,10 @@ ol {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.nav-menu-link:hover {
+ul .nav-menu-link:hover {
   color: #404bbf;
 }
-.contact-list-mailto {
+ul .contact-list-mailto {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -48,7 +50,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.contact-list-mailto:hover {
+ul .contact-list-mailto:hover {
   color: #404bbf;
 }
 
