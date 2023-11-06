@@ -40,7 +40,7 @@ ul .nav-menu-link {
   text-align: left;
 }
 ul .nav-menu-link:hover,
-ul .nav-menu-link:active {
+.nav-menu-link:active {
   color: #404bbf;
 }
 .contact-list {
@@ -54,7 +54,8 @@ ul .contact-list-mailto {
   letter-spacing: 0.02em;
   text-align: left;
 }
-ul .contact-list-mailto:hover {
+ul .contact-list-mailto:hover,
+.contact-list-mailto:active {
   color: #404bbf;
 }
 
