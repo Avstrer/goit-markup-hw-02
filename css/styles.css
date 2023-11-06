@@ -31,8 +31,7 @@ a .logo {
   text-transform: uppercase;
 }
 /* navigation */
-ul .nav-menu-link,
-.nav-menu-link-studio {
+ul .nav-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -41,7 +40,7 @@ ul .nav-menu-link,
   text-align: left;
 }
 ul .nav-menu-link:hover,
-ul .nav-menu-link-studio:active {
+ul .nav-menu-link:active {
   color: #404bbf;
 }
 .contact-list {
