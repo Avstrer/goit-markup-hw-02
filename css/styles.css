@@ -17,7 +17,7 @@ ol {
   list-style-type: none;
 }
 /* logotype */
-.logo {
+a .logo {
   color: #2e2f42;
 }
 .logotype {
