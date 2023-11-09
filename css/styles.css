@@ -17,7 +17,7 @@ ol {
   list-style-type: none;
 }
 /* logotype */
-a .logo {
+.logo {
   color: #2e2f42;
 }
 .logotype {
@@ -31,7 +31,7 @@ a .logo {
   text-transform: uppercase;
 }
 /* navigation */
-ul .nav-menu-link {
+.nav-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -39,14 +39,14 @@ ul .nav-menu-link {
   letter-spacing: 0.02em;
   text-align: left;
 }
-ul .nav-menu-link:hover,
-.nav-menu-link:active {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
   color: #404bbf;
 }
 .contact-list {
   font-style: normal;
 }
-ul .contact-list-mailto {
+.contact-list-mailto {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -54,8 +54,8 @@ ul .contact-list-mailto {
   letter-spacing: 0.02em;
   text-align: left;
 }
-ul .contact-list-mailto:hover,
-.contact-list-mailto:active {
+.contact-list-mailto:hover,
+.contact-list-mailto:focus {
   color: #404bbf;
 }
 
