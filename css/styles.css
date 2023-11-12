@@ -17,7 +17,7 @@ ol {
   list-style-type: none;
 }
 /* logotype */
-a .logo {
+.logo {
   color: #2e2f42;
 }
 .logotype {
@@ -25,13 +25,13 @@ a .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
 }
 /* navigation */
-ul .nav-menu-link {
+.nav-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -39,14 +39,14 @@ ul .nav-menu-link {
   letter-spacing: 0.02em;
   text-align: left;
 }
-ul .nav-menu-link:hover,
-.nav-menu-link:active {
+.nav-menu-link:hover,
+.nav-menu-link:focus {
   color: #404bbf;
 }
 .contact-list {
   font-style: normal;
 }
-ul .contact-list-mailto {
+.contact-list-mailto {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -54,13 +54,15 @@ ul .contact-list-mailto {
   letter-spacing: 0.02em;
   text-align: left;
 }
-ul .contact-list-mailto:hover,
-.contact-list-mailto:active {
-  color: #404bbf;
+.contact-list-mailto:hover,
+.contact-list-mailto:focus {
+    color: #404bbf;
 }
 
 /* section 1-Hero-image, button */
 .button {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
@@ -69,34 +71,36 @@ ul .contact-list-mailto:hover,
   letter-spacing: 0.04em;
   text-align: left;
 }
-.button:hover {
-  color: #404bbf;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+
 }
 .hero-image {
   background-color: #2e2f42;
 }
-.hero-text {
+.hero-main {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
   text-align: center;
 }
 /* section 2-Advantages */
-.Advantages {
+.advantages {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
-.Advantages-text {
+.advantages-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -108,9 +112,11 @@ ul .contact-list-mailto:hover,
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+
 }
 .members {
   color: #2e2f42;
@@ -119,6 +125,9 @@ ul .contact-list-mailto:hover,
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.members-info {
+  background-color: #ffffff;
 }
 .members-text {
   color: #434455;
@@ -129,21 +138,19 @@ ul .contact-list-mailto:hover,
   text-align: center;
 }
 /* section 4-portfolio */
-.portfolio-section {
-}
 .portfolio-main {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
-.porfolio-project {
+.portfolio-project {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -151,7 +158,7 @@ ul .contact-list-mailto:hover,
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
